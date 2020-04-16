@@ -1,7 +1,95 @@
 * {
     box-sizing: content-box;
+    color: white;
   }
-  
+
+  ol,ul
+  {
+      list-style-type: none;
+      text-align: left;
+  }
+
+  input 
+  {
+      width: 300px;
+      height: 30px;
+  }
+
+input:focus {outline:none; color: black;} 
+
+.btn
+{
+    cursor: pointer;
+}
+
+button
+{
+    background-color: rgba( 255, 255, 255, 0 );
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.js-weather{
+  position: absolute;
+  color: white;
+}
+
+.clicked
+{
+    color: #7f8c8d;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing{
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.js-clock{
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+}
+
+.js-greetings{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+}
+
+.js-toDoForm{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 36%;
+}
+
+.js-todo-list{
+  position: absolute;
+  left: 42%;
+  transform: translateX(-42%);
+  top: 42%;
+}
+
+
   html, body {
     margin: 0;
     height: 100%;
